@@ -3,7 +3,7 @@ Competetive Coding Warmup is designed to quickly access and practise competetive
 
 Note: Project is currently under development, so may contain mistakes.
 
-# Steps to clone this repo in JET BRAINS _ IntelliJ 
+# Steps to clone this repository in JET BRAINS _ IntelliJ 
 Following steps to clone repository is with respect to "IntelliJ 2019.3"
 
 Step 1:    Open IntelliJ 
