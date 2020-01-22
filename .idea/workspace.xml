@@ -1,93 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6fd852d7-407f-4c7b-bea5-d4887c034e35" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Prims.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Array/BlockSwap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Array/MOs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Array/Reversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Graph/Basic/BFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Graph/Basic/DFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Graph/Fleurys.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Graph/Hierholzers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Graph/MaximumFlow/Dinics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Graph/MaximumFlow/FordFulkerson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Graph/MaximumFlow/Kargers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Graph/MinimumSpanningTree/Boruvkas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Graph/MinimumSpanningTree/Kruskals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Graph/MinimumSpanningTree/Prims.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Graph/ShortestPaths/BellmanFord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Graph/ShortestPaths/Dials.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Graph/ShortestPaths/Dijkstras.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Graph/ShortestPaths/Karps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Graph/ShortestPathsAllPairs/FloydWarshall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Graph/ShortestPathsAllPairs/Johnsons.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Graph/StronglyConndComps/Kosaraju.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Graph/StronglyConndComps/Tarjan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Graph/TopologicalSorting/Kahn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Graph/TopologicalSorting/TopologicalSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Graph/UnionFind.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Searching/Binary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Searching/Exponential.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Searching/Fibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Searching/Interpolation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Searching/Jump.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Searching/Linear.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/SearchingPattern/AhoCorasick.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/SearchingPattern/BoyerMoore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/SearchingPattern/FiniteAutomata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/SearchingPattern/Kasal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/SearchingPattern/KnuthMorrisPratt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/SearchingPattern/Naive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/SearchingPattern/Online.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/SearchingPattern/RabinKarp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/SearchingPattern/SuffixArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/SearchingPattern/ZAlgo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Sorting/Bitonic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Sorting/Bogo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Sorting/Brick.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Sorting/Bubble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Sorting/Bucket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Sorting/CartesianTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Sorting/Cocktail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Sorting/Comb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Sorting/Counting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Sorting/Cycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Sorting/Gnome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Sorting/Heap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Sorting/Hybrids/BinaryInsertion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Sorting/Hybrids/Radix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Sorting/Hybrids/Shell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Sorting/Hybrids/Tim.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Sorting/Insertion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Sorting/Merge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Sorting/Pancake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Sorting/Pigeonhole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Sorting/Quick.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Sorting/Selection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Sorting/Sleep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Sorting/Stooge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Sorting/Strand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Sorting/Structure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Sorting/Tag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Sorting/Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Sorting/ZNOTES.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Source.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/DSArray/Array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/DSLinkedList/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/DSTree/Bucket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/DSTree/Functions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/DSTree/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/GfG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/SCC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/ShortestPath.java" afterDir="false" />
+    <list default="true" id="0353cd4c-63d8-49d2-9b4e-e4408926dfcf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prims.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Sorting/Hybrids/BinaryInsertion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Sorting/Hybrids/Radix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Sorting/Hybrids/Shell.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/iec2016018/CCWarmup/Algos/Sorting/Hybrids/Tim.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="ComposerSettings">
     <execution>
@@ -103,12 +31,20 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
-  <component name="ProjectId" id="1WkmqXrZO2kl9DZn30Fy1S3NGM4" />
+  <component name="ProjectId" id="1WkuHcxSmoy4uovbeFyeBXBOP9H" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="ServiceViewManager">
@@ -128,13 +64,35 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6fd852d7-407f-4c7b-bea5-d4887c034e35" name="Default Changelist" comment="" />
-      <created>1579702157168</created>
+      <changelist id="0353cd4c-63d8-49d2-9b4e-e4408926dfcf" name="Default Changelist" comment="" />
+      <created>1579702892172</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1579702157168</updated>
-      <workItem from="1579702160785" duration="2000" />
+      <updated>1579702892172</updated>
+      <workItem from="1579702894889" duration="665000" />
+      <workItem from="1579705829174" duration="1125000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="117" key="#Project_Structure" timestamp="1579702974449">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="117" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1579702974449" />
+    <state x="472" y="323" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1579703655571">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="472" y="323" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1440.900@0.0.1440.900" timestamp="1579703655571" />
+    <state x="320" y="191" key="Vcs.Push.Dialog.v2" timestamp="1579706826614">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="191" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1579706826614" />
+    <state x="374" y="250" key="git4idea.merge.GitPullDialog" timestamp="1579706812827">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="374" y="250" key="git4idea.merge.GitPullDialog/0.0.1440.900@0.0.1440.900" timestamp="1579706812827" />
   </component>
 </project>
