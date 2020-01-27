@@ -7,8 +7,10 @@ public class Graph {
     // Kruskal's algo
 
     // A class to represent a graph edge
-    class Edge implements Comparable<Edge>{
-        int src, dest, weight;
+    public class Edge implements Comparable<Edge>{
+        public int src;
+        public int dest;
+        public int weight;
 
         // Comparator function used for sorting edges
         // beased on their weight
@@ -22,14 +24,15 @@ public class Graph {
         int parent, rank;
     }
 
-    int V, E;
-    Edge[] edges; // collection of all edges
+    public int vCount;
+    public int eCount;
+    public Edge[] edges; // collection of all edges
 
     // Creates a graph with V vertices and E edges
-    Graph(int v, int e){
-        V = v;
-        E = e;
-        edges = new Edge[E];
+    public Graph(int v, int e){
+        vCount = v;
+        eCount = e;
+        edges = new Edge[eCount];
         for (int i = 0 ; i < e ; ++i){
             edges[i] = new Edge();
         }
@@ -70,19 +73,19 @@ public class Graph {
 
     // the main function to construct MST using kruskal's algorithm
     Edge[] kruskalMST2(){
-        Edge[] result = new Edge[V];
+        Edge[] result = new Edge[vCount];
         Arrays.sort(edges);
-        Subset[] subsets = new Subset[V];
-        for (int i = 0 ; i < V ; i++){
+        Subset[] subsets = new Subset[vCount];
+        for (int i = 0; i < vCount; i++){
             subsets[i] = new Subset();
         }
-        for (int i = 0 ;  i < V ; i++){
+        for (int i = 0; i < vCount; i++){
             subsets[i].parent = i;
             subsets[i].rank = 0;
         }
         int edgePointer = 0;
         int edgesDone = 0;
-        while(edgesDone < V-1){
+        while(edgesDone < vCount -1){
             Edge nextEdge = edges[edgePointer++];
             int x = find(subsets, nextEdge.src);
             int y = find(subsets, nextEdge.dest);

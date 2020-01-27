@@ -17,21 +17,13 @@ public class Prims {
 
     /*
 
-            P R I M S  for  M S T  --
+            P R I M S  M S T  --
 
             ABOUT       :
 
             >   This is a greedy algo
 
             COMPLEXITY  :   O (V + E)
-
-            VARIATIONS  :
-
-            ABOUT       :
-
-        >
-
-            COMPLEXITY  :
 
             VARIATIONS  :
 

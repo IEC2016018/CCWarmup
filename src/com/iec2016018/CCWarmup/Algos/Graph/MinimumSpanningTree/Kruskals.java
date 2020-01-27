@@ -8,7 +8,7 @@ public class Kruskals {
 
     /*
 
-            K R U S H K A L S  for  M S T  --
+            K R U S H K A L S  M S T  --
 
             ABOUT       :
 

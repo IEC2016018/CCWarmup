@@ -6,18 +6,15 @@ public class Tarjan {
 
     /*
 
-            A L G O
+            T A R J A N  S C C  --
 
-        1:  DFS search produces a DFS tree/forest
-        2:  Strongle connected components form subtrees of the DFS tree
-        3:  If we can find head of such subtrees, we can print/store
-            all the nodes in that subtree (including head) and that will
-            be one StronglyConndComps.
-        4:  There is no back edge from one StronglyConndComps to another (There can
-            be cross edges, but cross edges will not be used while
-            processing the graph).
+            ABOUT       :
 
-            NoTE:   Java code is not present on GFG
+        >
+
+            COMPLEXITY  :
+
+            VARIATIONS  :
 
      */
 

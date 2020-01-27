@@ -4,7 +4,7 @@ public class Boruvkas {
 
     /*
 
-            B O R U V K A S  for M S T  --
+            B O R U V K A S  M S T  --
 
             ABOUT       :
 
