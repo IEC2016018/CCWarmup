@@ -16,7 +16,7 @@ public class Cycle {
 
             VARIATIONS  :
 
-
+            ** NOTE **  Following codes are not tested yet. Learn this at your own risk
 
      */
 
@@ -48,7 +48,6 @@ public class Cycle {
     // ==========================================================  P R A C T I C E  H E R E ============================
 
 
-    // Date: 27 dec
     //------------------------ cycle sort with complexity n^2
 
     void cycleSort_1(int[] arr) {

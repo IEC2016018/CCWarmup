@@ -14,6 +14,8 @@ public class FloydWarshall {
 
             VARIATIONS  :
 
+            ** NOTE **  Following codes are not tested yet. Learn this at your own risk
+
      */
 
     void floydWarshall(int[][] graph){
@@ -38,7 +40,6 @@ public class FloydWarshall {
     // ==========================================================  P R A C T I C E  H E R E ============================
 
 
-    //Date 25 june
     //---------------------------------
 
 

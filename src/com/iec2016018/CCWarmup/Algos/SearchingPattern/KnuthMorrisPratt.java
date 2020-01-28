@@ -18,6 +18,7 @@ public class KnuthMorrisPratt {
             -   kmp     ->  knuth morris pratt
             -   lps     ->  longest prefix suffix
 
+            ** NOTE **  Following codes are not tested yet. Learn this at your own risk
 
      */
 
@@ -26,7 +27,7 @@ public class KnuthMorrisPratt {
         int txtLen = txt.length();
         int[] lps = new int[patLen];
         int j = 0;
-        computeLpsArray_0(pat, patLen, lps);
+        computeLpsArray(pat, patLen, lps);
         int i = 0;
         while (i < txtLen){
             if (pat.charAt(j) == txt.charAt(i)){
@@ -45,7 +46,7 @@ public class KnuthMorrisPratt {
             }
         }
     }
-    void computeLpsArray_0(String pat, int patLength, int[] lps){
+    void computeLpsArray(String pat, int patLength, int[] lps){
         int len = 0;
         int i = 1;
         lps[0] = 0;
@@ -68,7 +69,6 @@ public class KnuthMorrisPratt {
     // ==========================================================  P R A C T I C E  H E R E ============================
 
 
-    // Date: 25 june
     //-------------------------------------
 
 

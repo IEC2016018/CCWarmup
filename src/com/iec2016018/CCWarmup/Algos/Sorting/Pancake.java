@@ -15,7 +15,7 @@ public class Pancake {
 
             VARIATIONS  :
 
-
+            ** NOTE **  Following codes are not tested yet. Learn this at your own risk
 
      */
 
@@ -50,7 +50,6 @@ public class Pancake {
     // ==========================================================  P R A C T I C E  H E R E ============================
 
 
-    // Date: 28 dec
     //------------------------------------- pancake sort with complexity n^2
 
     void flip_1(int[] arr, int i) {

@@ -20,6 +20,8 @@ class DFS {
 
             VARIATIONS  :
 
+            ** NOTE **  Following codes are not tested yet. Learn this at your own risk
+
      */
     void dfSearchUtil(LinkedList<Integer>[] graph, int vertex, boolean[] visited){
         visited[vertex] = true;
@@ -36,7 +38,6 @@ class DFS {
 
     // ==========================================================  P R A C T I C E  H E R E ============================
 
-    //Date 1 jan 2020
     //------------------------------------- df search with complexity V+E
 
 

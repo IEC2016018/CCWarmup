@@ -17,7 +17,7 @@ public class Tim {
 
             VARIATIONS  :
 
-
+            ** NOTE **  Following codes are not tested yet. Learn this at your own risk
 
      */
 
@@ -61,7 +61,6 @@ public class Tim {
             }
         }
     }
-    // Date: 26 june
     // ==========================================================  P R A C T I C E  H E R E ============================
 
 

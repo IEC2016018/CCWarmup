@@ -6,14 +6,17 @@ public class Exponential {
 
     /*
 
-            Exponential Search
+            E X P O N E N T I A L  S E A R C H  --
 
-            C O M P L E X I T Y     :   O (log n)
+            ABOUT       :
 
-            A L G O
+        >
 
-        1:  Find range where element is present
-        2:  Do binary search in above found range
+            COMPLEXITY     :   O (log n)
+
+            VARIATIONS  :
+
+            ** NOTE **  Following codes are not tested yet. Learn this at your own risk
 
      */
 
@@ -29,7 +32,6 @@ public class Exponential {
     // ==========================================================  P R A C T I C E  H E R E ============================
 
 
-    // Date: 25 june
     //------------------------------
 
 

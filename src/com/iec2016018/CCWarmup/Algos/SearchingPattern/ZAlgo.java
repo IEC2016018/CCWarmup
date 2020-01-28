@@ -2,8 +2,6 @@ package com.iec2016018.CCWarmup.Algos.SearchingPattern;
 
 public class ZAlgo {
 
-    // ==========================================================  P R A C T I C E  H E R E ============================
-
     /*
 
             Z  S E A R C H  --
@@ -15,6 +13,8 @@ public class ZAlgo {
             COMPLEXITY  :
 
             VARIATIONS  :
+
+            ** NOTE **  Following codes are not tested yet. Learn this at your own risk
 
      */
 
@@ -57,7 +57,9 @@ public class ZAlgo {
         }
     }
 
-    // Date: 25 june
+    // ==========================================================  P R A C T I C E  H E R E ============================
+
+
     //-------------------------------------
 
 

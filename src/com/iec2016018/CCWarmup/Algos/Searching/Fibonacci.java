@@ -15,6 +15,8 @@ public class Fibonacci {
 
             VARIATIONS  :
 
+            ** NOTE **  Following codes are not tested yet. Learn this at your own risk
+
      */
     public static int fibonacci(int[] arr, int x, int n){
         int num_1 = 0, num_2 = 1, num_3 = num_1 + num_2;
@@ -43,7 +45,6 @@ public class Fibonacci {
 
     // ==========================================================  P R A C T I C E  H E R E ============================
 
-    // Date: 25 june
     //-----------------------------------
 
 

@@ -18,6 +18,8 @@ public class Kruskals {
 
             VARIATIONS  :
 
+            ** NOTE **  Following codes are not tested yet. Learn this at your own risk
+
      */
 
     int findRoot(Subset[] subsets, int i){
@@ -26,7 +28,7 @@ public class Kruskals {
         }
         return subsets[i].parent;
     }
-    void union_0(Subset[] subsets, int x, int y){
+    void union(Subset[] subsets, int x, int y){
         int xRoot = findRoot(subsets, x);
         int yRoot = findRoot(subsets, y);
         if (subsets[xRoot].rank < subsets[yRoot].rank){
@@ -59,7 +61,7 @@ public class Kruskals {
             int y = findRoot(subsets, nextEdge.dest);
             if ( x != y){
                 result[edgesDone++] = nextEdge;
-                union_0(subsets, x, y);
+                union(subsets, x, y);
             }
         }
         for (int i = 0 ; i < edgesDone ; i++){
@@ -70,7 +72,6 @@ public class Kruskals {
     // ==========================================================  P R A C T I C E  H E R E ============================
 
 
-    //Date 1 jan 2020
     //------------------------------------
 
 

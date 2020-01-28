@@ -99,4 +99,18 @@ public class Source {
             System.out.println(i+"\t\t"+dist[i]);
     }
 
+    public static void swap(int[] arr, int one, int another) {
+        int temp = arr[one];
+        arr[one] = arr[another];
+        arr[another] = temp;
+    }
+    public static boolean compareSwap(int[] arr, int one, int another) {
+        if (arr[one] < arr[another]) {
+            swap(arr, one, another);
+            return true;
+        }
+        return false;
+    }
+
+
 }

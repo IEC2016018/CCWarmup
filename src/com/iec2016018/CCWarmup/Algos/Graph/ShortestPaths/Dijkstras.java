@@ -15,6 +15,8 @@ public class Dijkstras {
 
             VARIATIONS  :
 
+            ** NOTE **  Following codes are not tested yet. Learn this at your own risk
+
      */
 
     int minDistance(int[] dist, boolean[] shortestPaths, int vCount){
@@ -52,7 +54,6 @@ public class Dijkstras {
 
 
 
-    //Date 25 june
     // ---------------------------------
 
 

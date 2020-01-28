@@ -19,6 +19,8 @@ public class RabinKarp {
             ABBREVIATION:
             -   q   --> prime number
 
+            ** NOTE **  Following codes are not tested yet. Learn this at your own risk
+
      */
 
     final static int length = 256;
@@ -56,7 +58,6 @@ public class RabinKarp {
     // ==========================================================  P R A C T I C E  H E R E ============================
 
 
-    // Date: 25 june
     //-------------------------------------
 
 

@@ -17,7 +17,7 @@ public class Cocktail {
 
             VARIATIONS  :
 
-
+            ** NOTE **  Following codes are not tested yet. Learn this at your own risk
 
      */
 
@@ -48,7 +48,6 @@ public class Cocktail {
 
     // ==========================================================  P R A C T I C E  H E R E ============================
 
-    // Date: 19 dec
     //------------------------------------- cocktail sort with complexity n -> n sq
 
 

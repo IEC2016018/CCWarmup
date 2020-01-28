@@ -27,6 +27,8 @@ public class Prims {
 
             VARIATIONS  :
 
+            ** NOTE **  Following codes are not tested yet. Learn this at your own risk
+
      */
 
     static class comparator implements Comparator<Node> {
@@ -73,7 +75,6 @@ public class Prims {
         for (int i = 0; i < vertexCount; i++) System.out.println(parents[i] + " - " + i);*/
     }
 
-    //Date 1 Jan 2020
     //----------------------------------
 
 

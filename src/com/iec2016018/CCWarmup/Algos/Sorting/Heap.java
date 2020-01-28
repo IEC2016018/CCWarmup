@@ -15,6 +15,8 @@ public class Heap {
 
             VARIATIONS  :   Selection sort
 
+            ** NOTE **  Following codes are not tested yet. Learn this at your own risk
+
      */
 
     void heapify(int[] arr, int length, int i){
@@ -45,7 +47,6 @@ public class Heap {
 
 
 
-    //Date 25 dec
     //-------------------------- heap sort
 
     void heapify_1(int[] arr, int length, int i) {

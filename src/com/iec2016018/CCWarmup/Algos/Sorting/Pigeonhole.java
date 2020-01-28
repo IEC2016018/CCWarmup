@@ -17,6 +17,8 @@ public class Pigeonhole {
 
             VARIATIONS  :
 
+            ** NOTE **  Following codes are not tested yet. Learn this at your own risk
+
      */
 
     void pigonholeSort(int[] arr){
@@ -37,7 +39,6 @@ public class Pigeonhole {
     // ==========================================================  P R A C T I C E  H E R E ============================
 
 
-    // Date: 26 dec
     //------------------------------------- pigeonhole sort with complexity (n + range)
 
     void pigeonholeSort_1(int[] arr){

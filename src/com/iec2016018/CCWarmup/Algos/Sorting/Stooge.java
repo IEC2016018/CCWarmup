@@ -14,6 +14,7 @@ public class Stooge {
 
             VARIATIONS  :
 
+            ** NOTE **  Following codes are not tested yet. Learn this at your own risk
 
      */
 
@@ -37,7 +38,6 @@ public class Stooge {
     // ==========================================================  P R A C T I C E  H E R E ============================
 
 
-    // Date: 30 dec
     //-------------------------------------
 
 

@@ -15,6 +15,8 @@ public class Karps {
 
             VARIATIONS  :
 
+            ** NOTE **  Following codes are not tested yet. Learn this at your own risk
+
      */
 
 

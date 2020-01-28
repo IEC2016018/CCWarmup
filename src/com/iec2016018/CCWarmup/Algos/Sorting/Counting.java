@@ -24,6 +24,8 @@ public class Counting {
 
             VARIATIONS  :
 
+            ** NOTE **  Following codes are not tested yet. Learn this at your own risk
+
      */
 
     void countSort(int[] arr){
@@ -43,7 +45,6 @@ public class Counting {
 
 
 
-    //Date 26 dec
     //------------------------------- count sort with complexity n
 
 

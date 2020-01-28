@@ -15,6 +15,8 @@ public class Selection {
 
             VARIATIONS  :
 
+            ** NOTE **  Following codes are not tested yet. Learn this at your own risk
+
      */
 
     void selectionSort(int[] arr){
@@ -33,7 +35,6 @@ public class Selection {
     // ==========================================================  P R A C T I C E  H E R E ============================
 
 
-    //Date 21 dec
     //------------------------------------- Selection sort with complexity n^2
 
 

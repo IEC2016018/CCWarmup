@@ -21,6 +21,8 @@ public class BellmanFord {
 
             VARIATIONS  :
 
+            ** NOTE **  Following codes are not tested yet. Learn this at your own risk
+
      */
 
     void bellmanFord(Graph graph, int src){
@@ -56,7 +58,6 @@ public class BellmanFord {
     // ==========================================================  P R A C T I C =======================================
 
 
-    //Date 25 june
     //------------------------------------
 
 

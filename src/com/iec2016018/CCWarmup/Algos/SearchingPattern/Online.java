@@ -14,6 +14,8 @@ public class Online {
 
             VARIATIONS  :
 
+            ** NOTE **  Following codes are not tested yet. Learn this at your own risk
+
      */
     int bufferSize = 103;
     int length = 256;
@@ -49,7 +51,6 @@ public class Online {
     // ==========================================================  P R A C T I C E  H E R E ============================
 
 
-    // Date: 25 june
     //-------------------------------------
 
 

@@ -16,12 +16,11 @@ public class BinaryInsertion {
 
             VARIATIONS  :
 
-
-
+            ** NOTE **  Following codes are not tested yet. Learn this at your own risk
 
      */
 
-    void binaryInsertionSort_0(int[] arr){
+    void binaryInsertionSort(int[] arr){
         for (int i = 1 ; i < arr.length ; i++){
             int x = arr[i];
             int j = Math.abs(Arrays.binarySearch(arr, 0, i, x) + 1);
@@ -34,7 +33,6 @@ public class BinaryInsertion {
     // ==========================================================  P R A C T I C E  H E R E ============================
 
 
-    // Date: 25 june
     //-------------------------------------
 
 

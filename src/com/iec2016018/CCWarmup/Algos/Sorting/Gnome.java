@@ -17,11 +17,11 @@ public class Gnome {
 
             VARIATIONS  :
 
-
+            ** NOTE **  Following codes are not tested yet. Learn this at your own risk
 
      */
 
-    static void gnomeSort_0(int[] arr, int n){
+    static void gnomeSort(int[] arr, int n){
         int index = 0;
         while(index < n){
             if (index == 0){
@@ -41,7 +41,6 @@ public class Gnome {
     // ==========================================================  P R A C T I C E  H E R E ============================
 
 
-    // Date: 27 june
     //------------------------------------- gnome sort with complexity n -> n^2
     static void gnomeSort_1(int[] arr, int n){
         int index = 0;

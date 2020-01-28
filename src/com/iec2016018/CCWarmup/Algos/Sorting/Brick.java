@@ -1,5 +1,7 @@
 package com.iec2016018.CCWarmup.Algos.Sorting;
 
+import static com.iec2016018.CCWarmup.Algos.Source.compareSwap;
+
 public class Brick {
 
     /*
@@ -8,54 +10,37 @@ public class Brick {
 
             ABOUT       :
 
-        >   Variation of Bubble sort
-        >   Also known as Odd-Even sort because algo is divided into two phases-
-            Odd and Even phase
+        >   Also known as Odd-Even sort due to its odd-even sorting pattern
 
             COMPLEXITY  :   O ( n^2 )
 
-            VARIATIONS  :
+            VARIATIONS  :   Bubble sort
+
+            ** NOTE **  Following codes are not tested yet. Learn this at your own risk
 
      */
 
-    boolean swap_0(int[] arr, int n, int start) {
+    boolean loopSwap(int[] arr, int start, int end) {
         boolean swapped = false;
-        for (int i = start ; i < n-2 ; i+=2) {
-            if (arr[i+1] < arr[i]) {
-                int temp = arr[i+1];
-                arr[i+1] = arr[i];
-                arr[i] = temp;
-                swapped = true;
-            }
+        for (int i = start ; i < end ; i+=2) {
+            if (compareSwap(arr, i+1, i)) swapped = true;
         }
         return swapped;
     }
-    void brickSort_0(int[] arr, int n){
+    void brickSort(int[] arr, int n){
         boolean swapped = true;
-        while(swapped) swapped = swap_0(arr, n, 1) || swap_0(arr, n, 0);
+        while(swapped) {
+            swapped = false;
+            if (loopSwap(arr, 0, n-2)) swapped = true;
+            if (loopSwap(arr, 1, n-2)) swapped = true;
+        }
     }
 
     // ==========================================================  P R A C T I C E  H E R E ============================
 
-    // Date: 17 JAN 2020
     //------------------------------------- brick or odd-even sort with complexity n sq
 
-    boolean swap_1(int[] arr, int n, int start) {
-        boolean swapped = false;
-        for (int i = start ; i < n-2 ; i+=2) {
-            if (arr[i+1] < arr[i]) {
-                int temp = arr[i];
-                arr[i] = arr[i+1];
-                arr[i+1] = temp;
-                swapped = true;
-            }
-        }
-        return swapped;
-    }
-    void brickSort_1(int[] arr, int n) {
-        boolean swapped = true;
-        while(swapped) swapped = swap_1(arr, n, 1) || swap_1(arr, n, 0);
-    }
+
 
 
 

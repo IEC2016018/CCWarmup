@@ -21,6 +21,8 @@ public class Kosaraju {
 
             VARIATIONS  :
 
+            ** NOTE **  Following codes are not tested yet. Learn this at your own risk
+
      */
 
     // TODO: pending...
@@ -28,7 +30,6 @@ public class Kosaraju {
     // ==========================================================  P R A C T I C E  H E R E ============================
 
 
-    //Date 25 june
     //------------------------------
 
 

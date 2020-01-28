@@ -15,6 +15,7 @@ public class Tree {
 
             VARIATIONS  :
 
+            ** NOTE **  Following codes are not tested yet. Learn this at your own risk
 
      */
 
@@ -34,7 +35,7 @@ public class Tree {
         }
         return root;
     }
-    void treeins_0(int[] arr){
+    void treeins(int[] arr){
         for (int i = 0 ; i < arr.length ; i++){
             insert(arr[i]);
         }
@@ -52,7 +53,6 @@ public class Tree {
     // ==========================================================  P R A C T I C E  H E R E ============================
 
 
-    // Date: 25 june
     //-------------------------------------
 
 

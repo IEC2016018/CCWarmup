@@ -22,6 +22,7 @@ public class Merge {
         >   Inversion count problem
         >   External sorting
 
+            ** NOTE **  Following codes are not tested yet. Learn this at your own risk
 
      */
 
@@ -50,15 +51,15 @@ public class Merge {
     }
 
     // With recursion
-    void mergeSortRecursive_0(int[] arr){
+    void mergeSortRecursive(int[] arr){
         if (arr == null) return;
         if (arr.length > 1){
             int mid = arr.length / 2;
             int[] left = new int[mid], right = new int[arr.length - mid];
             System.arraycopy(arr, 0, left, 0, mid);
             System.arraycopy(arr, mid, right, 0, arr.length - mid);
-            mergeSortRecursive_0(left);
-            mergeSortRecursive_0(right);
+            mergeSortRecursive(left);
+            mergeSortRecursive(right);
             int i = 0, j = 0, k = 0;
             while(i < left.length && j < right.length){
                 if (left[i] < right[j])
@@ -74,7 +75,6 @@ public class Merge {
     // ==========================================================  P R A C T I C E  H E R E ============================
 
 
-    //Date 26 nov
     //--------------------------- merge sort with  complexity log n
 
     void merge_1(int[] arr, int l, int m, int r) {

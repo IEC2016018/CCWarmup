@@ -17,7 +17,7 @@ public class Shell {
 
             VARIATIONS  :
 
-
+            ** NOTE **  Following codes are not tested yet. Learn this at your own risk
 
      */
 
@@ -39,7 +39,6 @@ public class Shell {
     // ==========================================================  P R A C T I C E  H E R E ============================
 
 
-    // Date: 1 Jan 2020
     //-------------------------------------
 
 

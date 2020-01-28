@@ -15,6 +15,8 @@ public class Comb {
 
             VARIATIONS  :
 
+            ** NOTE **  Following codes are not tested yet. Learn this at your own risk
+
      */
 
     boolean compareSwap(int[] arr, int low, int high) {
@@ -33,7 +35,7 @@ public class Comb {
         }
         return gap;
     }
-    void combSort_0(int[] arr){
+    void combSort(int[] arr){
         int n = arr.length;
         int gap = n;
         boolean swapped = true;
@@ -48,37 +50,8 @@ public class Comb {
 
     // ==========================================================  P R A C T I C E  H E R E ============================
 
-    // Date: 21 dec
     //------------------------------------- comb sort with complexity n -> n sq
 
-    boolean compareSwap_1(int[] arr, int low, int high) {
-        if (arr[low] < arr[high]) {
-            int temp = arr[low];
-            arr[low] = arr[high];
-            arr[high] = temp;
-            return true;
-        }
-        return false;
-    }
-    int getNextGap_1(int gap) {
-        gap = (gap * 10) / 13;
-        if (gap < 1) {
-            return 1;
-        }
-        return gap;
-    }
-    void combSort_1(int[] arr) {
-        int n = arr.length;
-        boolean swapped = true;
-        int gap = n;
-        while (swapped || gap != 1) {
-            gap = getNextGap_1(gap);
-            swapped = false;
-            for (int i = 0 ; i < n-gap ; i++) {
-                if (compareSwap_1(arr, i+gap, i)) swapped = true;
-            }
-        }
-    }
 
 
 

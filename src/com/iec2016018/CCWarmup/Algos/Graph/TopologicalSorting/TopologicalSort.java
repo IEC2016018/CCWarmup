@@ -18,6 +18,8 @@ public class TopologicalSort {
 
             VARIATIONS  :
 
+            ** NOTE **  Following codes are not tested yet. Learn this at your own risk
+
      */
 
     private int vertexCount;   // No. of vertices
@@ -42,7 +44,6 @@ public class TopologicalSort {
 
 
 
-    //Date 2 jan 2020
     //---------------------------------
 
 

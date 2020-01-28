@@ -20,12 +20,13 @@ public class Radix {
 
             VARIATIONS  :
 
+            ** NOTE **  Following codes are not tested yet. Learn this at your own risk
+
      */
 
 
     // ==========================================================  P R A C T I C E  H E R E ============================
 
-    // Date: 1 jan 2020
     //------------------------------------- radix sort with complexity d * (n+b);
 
 

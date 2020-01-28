@@ -14,6 +14,8 @@ public class Insertion {
 
             VARIATIONS  :
 
+            ** NOTE **  Following codes are not tested yet. Learn this at your own risk
+
      */
 
     // Without recursion
@@ -47,7 +49,6 @@ public class Insertion {
     // ==========================================================  P R A C T I C E  H E R E ============================
 
 
-    //Date 21 dec
     //----------------------------------- insertion sort with complexity n --> n^2
     void insertionSort_1(int[] arr) {
         for (int i = 1 ; i < arr.length ; i++) {

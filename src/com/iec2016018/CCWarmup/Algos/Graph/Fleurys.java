@@ -16,6 +16,8 @@ public class Fleurys {
 
             VARIATIONS  :
 
+            ** NOTE **  Following codes are not tested yet. Learn this at your own risk
+
      */
     private int vertices; // No. of vertices
     private ArrayList<Integer>[] adj; // adjacency list
@@ -74,7 +76,6 @@ public class Fleurys {
     // ==========================================================  P R A C T I C E  H E R E ============================
 
 
-    //Date 25 june
     // ----------------------
 
 }

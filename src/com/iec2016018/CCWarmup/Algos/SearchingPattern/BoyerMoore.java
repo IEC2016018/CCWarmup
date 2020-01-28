@@ -16,6 +16,8 @@ public class BoyerMoore {
 
             VARIATIONS  :
 
+            ** NOTE **  Following codes are not tested yet. Learn this at your own risk
+
      */
 
     static int NO_OF_CHARS = 256;
@@ -53,7 +55,6 @@ public class BoyerMoore {
         }
     }
 
-    // Date: 25 june
     //-------------------------------------
 
 

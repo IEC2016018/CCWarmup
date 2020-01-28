@@ -21,7 +21,7 @@ class BFS {
 
             VARIATIONS  :
 
-
+            ** NOTE **  Following codes are not tested yet. Learn this at your own risk
 
      */
     void bfSearch(LinkedList<Integer>[] graph, int vertex, int vertexCount){
@@ -45,7 +45,6 @@ class BFS {
     // ==========================================================  P R A C T I C E  H E R E ============================
 
 
-    //Date 1 jan 2020
     //------------------------------- bf search with complexity O (V + E)
 
 

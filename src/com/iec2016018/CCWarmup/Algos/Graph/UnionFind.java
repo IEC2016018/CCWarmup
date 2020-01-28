@@ -16,6 +16,8 @@ public class UnionFind {
 
             VARIATIONS  :
 
+            ** NOTE **  Following codes are not tested yet. Learn this at your own risk
+
      */
 
     class Subset {
@@ -63,7 +65,6 @@ public class UnionFind {
 
     // ==========================================================  P R A C T I C edgeCount  H edgeCount R edgeCount ============================
 
-    //Date 23 june
     //---------------------------------
 
 
