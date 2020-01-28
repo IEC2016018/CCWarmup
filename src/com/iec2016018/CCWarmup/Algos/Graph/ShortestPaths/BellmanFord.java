@@ -1,7 +1,7 @@
 package com.iec2016018.CCWarmup.Algos.Graph.ShortestPaths;
 
 import com.iec2016018.CCWarmup.Algos.Source;
-import com.iec2016018.CCWarmup.Graph;
+import com.iec2016018.CCWarmup.Algos.Source.Graph;
 
 import static com.iec2016018.CCWarmup.Algos.Source.printArr;
 
